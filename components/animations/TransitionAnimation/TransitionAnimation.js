@@ -12,10 +12,10 @@ export default function TransitionAnimation() {
                 exit: styles['my-node-exit'],
                 exitActive: styles['my-node-exit-active'],
             }}>
-                <div>
+                <div className={styles.div}>
                 </div>
             </CSSTransition>
-            <button type="button" onClick={() => setInProp(true)}>
+            <button type="button" onClick={() => setInProp(!inProp)}>
                 Click to Enter
             </button>
         </div>
