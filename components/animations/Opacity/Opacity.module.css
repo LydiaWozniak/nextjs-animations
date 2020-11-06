@@ -1,10 +1,10 @@
 .element {
     width: 100%;
     height: 100%;
-    animation: gradient 15s infinite;
+    animation: gradient 3s infinite;
     animation-timing-function: ease-out; 
     animation-direction: alternate;
-    background-color: aquamarine;
+    background-color: #C44536;
   }
   
   @keyframes gradient {

@@ -5,7 +5,7 @@ display: grid;
   gap: 14px 14px;
   grid-template-areas:
     "1 2 3"
-    ". . ."
+    "4 5 ."
     ". . ."
     ". . .";
 }
@@ -13,3 +13,5 @@ display: grid;
 .pulse-animation { grid-area: 1; }
 .fill-animation {grid-area: 2}
 .opacity-animation {grid-area: 3}
+.translate-animation {grid-area:4}
+.rotate-animation {grid-area:5}
