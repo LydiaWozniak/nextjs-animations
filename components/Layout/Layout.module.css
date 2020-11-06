@@ -1,0 +1,15 @@
+.div {
+display: grid;
+  grid-template-columns: 10em 10em 10em;
+  grid-template-rows: 10em 10em 10em 10em;
+  gap: 14px 14px;
+  grid-template-areas:
+    "1 2 3"
+    ". . ."
+    ". . ."
+    ". . .";
+}
+
+.pulse-animation { grid-area: 1; }
+.fill-animation {grid-area: 2}
+.opacity-animation {grid-area: 3}
