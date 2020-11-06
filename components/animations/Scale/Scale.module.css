@@ -1,0 +1,19 @@
+.element {
+    width: 100%;
+    height: 100%;
+    animation: translate 5s infinite;
+    animation-timing-function: ease-out; 
+    animation-direction: alternate;
+    background-color: #283D3B;
+    border-radius: 100%;
+  }
+  
+  @keyframes translate {
+    0% {
+      transform: scale(.3);
+    }
+   
+    100% {
+      transform: scale(1.0);
+    }
+  }

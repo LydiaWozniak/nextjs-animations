@@ -15,7 +15,7 @@ export default function Home() {
           React Animations
         </h1>
         <Link href="/info"> Documentation and resources </Link>
-        <p>The most performant animations are: opacity, translate, rotate, scale</p>
+        <p>The most performant animations are opacity, translate, rotate, scale</p>
 
         <div className="grid">
           <Layout></Layout>

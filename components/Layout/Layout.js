@@ -4,6 +4,7 @@ import Fill from '../animations/Fill';
 import Opacity from '../animations/Opacity';
 import Translate from '../animations/Translate';
 import Rotate from '../animations/Rotate';
+import Scale from '../animations/Scale';
 
 export default function Layout() {
     return (
@@ -27,6 +28,10 @@ export default function Layout() {
             <div className={'rotate-animation'} >
                 <h4>Rotate</h4>
                 <Rotate />
+            </div>
+            <div className={'scale-animation'} >
+                <h4>Scale</h4>
+                <Scale />
             </div>
 
         </div>
