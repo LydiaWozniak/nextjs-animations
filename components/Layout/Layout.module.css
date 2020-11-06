@@ -6,7 +6,7 @@ display: grid;
   grid-template-areas:
     "1 2 3"
     "4 5 6"
-    ". . ."
+    "7 . ."
     ". . .";
 }
 
@@ -16,3 +16,4 @@ display: grid;
 .translate-animation {grid-area:4}
 .rotate-animation {grid-area:5}
 .scale-animation {grid-area: 6}
+.transition-animation {grid-area: 7}

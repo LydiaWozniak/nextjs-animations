@@ -5,8 +5,11 @@ import Opacity from '../animations/Opacity';
 import Translate from '../animations/Translate';
 import Rotate from '../animations/Rotate';
 import Scale from '../animations/Scale';
+import TransitionAnimation from '../animations/TransitionAnimation';
+import { useState } from 'react';
 
 export default function Layout() {
+
     return (
         <div className={styles.div}>
             <div className={'pulse-animation'} >
@@ -32,6 +35,11 @@ export default function Layout() {
             <div className={'scale-animation'} >
                 <h4>Scale</h4>
                 <Scale />
+            </div>
+            <div className={'transition-animation'} >
+                <h4>Transition</h4>
+
+                <TransitionAnimation />
             </div>
 
         </div>
