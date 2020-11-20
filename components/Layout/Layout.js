@@ -7,6 +7,7 @@ import Rotate from '../animations/Rotate';
 import Scale from '../animations/Scale';
 import TransitionAnimation from '../animations/TransitionAnimation';
 import ReactReveal from '../animations/ReactReveal';
+import LottieAnimation from '../animations/LottieAnimation';
 import { useState } from 'react';
 
 export default function Layout() {
@@ -44,6 +45,10 @@ export default function Layout() {
             <div className={'reveal-animation'}>
                 <h4>React Reveal</h4>
                 <ReactReveal />
+            </div>
+            <div className={'lottie-animation'}>
+                <h4>React Reveal</h4>
+                <LottieAnimation />
             </div>
 
         </div>
