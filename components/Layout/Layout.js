@@ -47,7 +47,7 @@ export default function Layout() {
                 <ReactReveal />
             </div>
             <div className={'lottie-animation'}>
-                <h4>React Reveal</h4>
+                <h4>Lottie</h4>
                 <LottieAnimation />
             </div>
 
