@@ -6,6 +6,7 @@ import Translate from '../animations/Translate';
 import Rotate from '../animations/Rotate';
 import Scale from '../animations/Scale';
 import TransitionAnimation from '../animations/TransitionAnimation';
+import ReactReveal from '../animations/ReactReveal';
 import { useState } from 'react';
 
 export default function Layout() {
@@ -38,8 +39,11 @@ export default function Layout() {
             </div>
             <div className={'transition-animation'} >
                 <h4>Transition</h4>
-
                 <TransitionAnimation />
+            </div>
+            <div className={'reveal-animation'}>
+                <h4>React Reveal</h4>
+                <ReactReveal />
             </div>
 
         </div>
