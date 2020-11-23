@@ -1,0 +1,7 @@
+.greensockWrapper{
+    display:flex;
+    flex-direction: column
+  }
+.ball{
+    margin-top: 5em;
+}
