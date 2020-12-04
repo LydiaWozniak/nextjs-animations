@@ -1,13 +1,13 @@
 import styles from './Button.module.css';
 import { Transition, CSSTransition } from 'react-transition-group';
 import { useState, useEffect } from 'react'
-import { useSpring, animated, config } from 'react-spring';
+
 
 
 export default function Button() {
     let success = <polyline className="check" fill="none" stroke="#fff" strokeWidth="8" strokeLinecap="round" strokeMiterlimit="10"
         points="70,35 45,65 30,52  " />
-    let loading = <circle className={styles.circleSVG} fill="none" stroke="#fff" stroke-dashoffset="60" stroke-dasharray="100" strokeWidth="4" strokeMiterlimit="10" cx="50" cy="50" r="44" />;
+    let loading = <circle className={styles.circleSVG} fill="none" stroke="#fff" strokeDasharray="280" strokeWidth="4" strokeMiterlimit="10" cx="50" cy="50" r="44" />;
 
     const [buttonText, setButtonText] = useState('submit')
     const [path, setPath] = useState('');

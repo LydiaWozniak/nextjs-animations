@@ -25,20 +25,29 @@
   
 
 @keyframes circle--animation {
-  0% {
-    stroke-dashoffset: 60;
-  }
-  
-  50% {
-    stroke-dashoffset: 300;
-  }
+    0% {
+        stroke-dashoffset: 60;
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        stroke-dashoffset: 276;
+    }
+    75% {
+        transform: rotate(280deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 
 .circleSVG {
     stroke-linecap: round;
     transform-origin: 50% 50%;
-    animation-duration: 1.4s;
+    animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
