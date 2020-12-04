@@ -1,0 +1,46 @@
+.success {
+    background-color: green;
+}
+
+.submit {
+    background-color: grey;
+}
+
+.loading {
+    background-color: blue;
+}
+
+.buttonWrapper {
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-width: 0px;
+    display: flex;
+}
+
+.spinnerSVG{
+    margin-right: 5px;
+}
+  
+
+@keyframes circle--animation {
+  0% {
+    stroke-dashoffset: 60;
+  }
+  
+  50% {
+    stroke-dashoffset: 300;
+  }
+}
+
+
+.circleSVG {
+    stroke-linecap: round;
+    transform-origin: 50% 50%;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-name: circle--animation;
+}

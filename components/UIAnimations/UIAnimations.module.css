@@ -1,0 +1,15 @@
+.div {
+display: grid;
+  grid-template-columns: 50em 50em;
+  grid-template-rows: 50em 50em;
+  gap: 14px 14px;
+  grid-template-areas:
+    "1 2"
+    "3 4";
+}
+
+.button { grid-area: 1; }
+.input {grid-area: 2}
+.skeleton {grid-area: 3}
+.list {grid-area:4}
+
