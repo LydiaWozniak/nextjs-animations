@@ -1,5 +1,10 @@
 .success {
     background-color: green;
+    animation-name: success--animation;  
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .submit {
@@ -8,6 +13,11 @@
 
 .loading {
     background-color: blue;
+    animation-name: loading--animation;  
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .buttonWrapper {
@@ -49,7 +59,25 @@
     transform-origin: 50% 50%;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
     animation-fill-mode: both;
     animation-name: circle--animation;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading--animation {
+    0%{
+        background-color:   grey;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+@keyframes success--animation {
+    0%{
+        background-color:   blue;
+    }
+    100% {
+        background-color: green;
+    }
 }
